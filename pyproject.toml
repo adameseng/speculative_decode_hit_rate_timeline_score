@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "adameseng-costopt_jd382"
+name = "adameseng-speculative_decode_hit_rate_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列推理成本优化顾问·投机解码的命中率的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://adameseng.github.io"
-Repository = "https://github.com/adameseng/costopt_jd382"
-Issues = "https://github.com/adameseng/costopt_jd382/issues"
+Repository = "https://github.com/adameseng/speculative_decode_hit_rate_timeline_score"
+Issues = "https://github.com/adameseng/speculative_decode_hit_rate_timeline_score/issues"
 
 [project.scripts]
-costopt_jd382 = "costopt_jd382:main"
+speculative_decode_hit_rate_timeline_score = "speculative_decode_hit_rate_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["costopt_jd382"]
+py-modules = ["speculative_decode_hit_rate_timeline_score"]
